@@ -1,0 +1,47 @@
+# Local data and generated outputs
+data/
+outputs/
+results/
+tables/
+figures/
+logs/
+tmp/
+temp/
+private/
+local/
+*.xls
+*.xlsx
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.dta
+*.sav
+*.rds
+*.RData
+!config/column_map.example.json
+!docs/*.md
+
+# Python runtime files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local system and editor files
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+
+# Document and archive exports
+*.pdf
+*.docx
+*.pptx
+*.zip
